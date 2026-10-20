@@ -49,11 +49,11 @@ npm test
 
 Do not commit secrets. On deploy, the platform injects database and auth settings.
 
-| Variable | Where | Purpose |
-| --- | --- | --- |
-| `DATABASE_URL` | server | Postgres connection. Optional locally. |
-| `XAI_API_KEY` | server | Assistant answers from the guide. Never exposed to the browser. |
-| `DURATION_SERVICE_URL` | server | Optional `ai/duration_service.py` endpoint. |
+| Variable               | Where  | Purpose                                                         |
+| ---------------------- | ------ | --------------------------------------------------------------- |
+| `DATABASE_URL`         | server | Postgres connection. Optional locally.                          |
+| `XAI_API_KEY`          | server | Assistant answers from the guide. Never exposed to the browser. |
+| `DURATION_SERVICE_URL` | server | Optional `ai/duration_service.py` endpoint.                     |
 
 Start the optional model with Python 3. If scikit-learn is installed it fits a small synthetic model. If not, it says so.
 
