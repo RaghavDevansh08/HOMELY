@@ -24,8 +24,6 @@ Trusted household help, booked nearby. Customers compare estimates, professional
 
 Create one account per desk. There is no admin checkbox on sign-up. If no administrator exists, the admin page offers a one-time claim. That replaces the account's role.
 
-Demo profiles cannot sign in. They exist so the marketplace is not empty.
-
 ## Local development
 
 The app is a TanStack Start project.
