@@ -19,22 +19,3 @@ What is not connected
 
 Roles
 Create one account per desk. There is no admin checkbox on sign-up. If no administrator exists, the admin page offers a one-time claim. That replaces the account's role.
-
-Useful checks:
-
-```bash
-npm run typecheck
-npm run build
-npm test
-```
-
-## Environment
-
-Do not commit secrets. On deploy, the platform injects database and auth settings.
-
-| Variable               | Where  | Purpose                                                         |
-| ---------------------- | ------ | --------------------------------------------------------------- |
-| `DATABASE_URL`         | server | Postgres connection. Optional locally.                          |
-| `XAI_API_KEY`          | server | Assistant answers from the guide. Never exposed to the browser. |
-| `DURATION_SERVICE_URL` | server | Optional `ai/duration_service.py` endpoint.                     |
-
