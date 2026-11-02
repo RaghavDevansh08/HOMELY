@@ -20,16 +20,6 @@ What is not connected
 Roles
 Create one account per desk. There is no admin checkbox on sign-up. If no administrator exists, the admin page offers a one-time claim. That replaces the account's role.
 
-Local development
-The app is a TanStack Start project.
-
-```bash
-npm install
-npm run dev
-```
-
-The dev server listens on port 8080. Postgres is used when `DATABASE_URL` is set. Without it, an embedded Postgres is used and the schema in `migrations/` is applied on startup.
-
 Useful checks:
 
 ```bash
