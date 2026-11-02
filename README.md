@@ -1,9 +1,7 @@
-# HOMELY
-
+HOMELY
 Trusted household help, booked nearby. Customers compare estimates, professionals run their visits, and an administrator reviews documents.
 
-## What works in the preview
-
+What works in the preview
 - Email and password accounts, plus Google and X sign-in
 - Customer booking from service choice through estimate, confirmation, messages, cancellation, reschedule, and review
 - Demo professionals labelled as samples, with a button to step a simulated visit
@@ -12,20 +10,17 @@ Trusted household help, booked nearby. Customers compare estimates, professional
 - Rule-based ranking and a preliminary duration estimate
 - In-app guide. Assistant answers only when you ask and the app has a server key
 
-## What is not connected
-
+What is not connected
 - Live maps. City, PIN, and optional browser location are used instead. Distances are approximate.
 - SMS, email delivery, and OTP. Password reset is not emailed. Change it while signed in.
 - Card payments. Visits are pay-on-completion records. Card numbers are never stored.
 - Aadhaar or face verification. Badges appear only after an administrator approves a consented document.
 - The Python duration model, unless `DURATION_SERVICE_URL` is set. Otherwise the estimate is labelled preliminary.
 
-## Roles
-
+Roles
 Create one account per desk. There is no admin checkbox on sign-up. If no administrator exists, the admin page offers a one-time claim. That replaces the account's role.
 
-## Local development
-
+Local development
 The app is a TanStack Start project.
 
 ```bash
